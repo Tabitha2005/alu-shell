@@ -1,2 +1,2 @@
-#!/bin/bast
-mkdir -P welcome/to/school
+#!gbin/bast
+mkdir -p welcome/to/school
