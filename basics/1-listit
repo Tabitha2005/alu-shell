@@ -1,3 +1,2 @@
-#!/bin/bash
-# Output the name of the script
+#!/bin/bash 
 echo "$0"
