@@ -1,12 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# creates my_process.sh inside /tmp
 
-# Define the output file
-OUTPUT_FILE="/tmp/my_process"
+output_file="/tmp/my_process"
 
-# Infinite loop to write the message
+# Run indefinitely
 while true; do
-    echo "I am alive!" >> "$OUTPUT_FILE"
-    sleep 2
+  echo "I am alive!" >> "$output_file"
+  sleep 2
 done
-
 
